@@ -139,7 +139,7 @@ export default function WalletPage() {
                         <p className="text-sm text-muted-foreground max-w-xl">
                           Pexly needs a Reown project ID before a wallet can connect. Add <code className="rounded bg-muted px-1.5 py-0.5 font-mono text-xs">VITE_REOWN_PROJECT_ID</code> to the app environment, then reload this page.
                         </p>
-                        <p className="text-xs text-muted-foreground">No account or Pexly vault is required to use this wallet.</p>
+                        <p className="text-xs text-muted-foreground">Sign in to your Pexly account to access this wallet page.</p>
                       </div>
                     </div>
                   </CardContent>

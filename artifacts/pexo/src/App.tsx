@@ -229,7 +229,7 @@ function AppRoutes() {
       <Route path="/signup">{() => <AuthRoute component={SignUp} />}</Route>
 
       <Route path="/dashboard">{() => <Redirect to="/wallet" />}</Route>
-      <Route path="/wallet">{() => <LazyRoute component={Wallet} skeleton={<WalletPageSkeleton />} />}</Route>
+      <Route path="/wallet">{() => <ProtectedRoute component={Wallet} skeleton={<WalletPageSkeleton />} />}</Route>
       <Route path="/wallet/virtual-numbers">{() => <Redirect to="/shop" />}</Route>
       <Route path="/wallet/mobile-topup">{() => <LazyRoute component={MobileTopup} />}</Route>
       <Route path="/mobile-topup">{() => <Redirect to="/wallet/mobile-topup" />}</Route>
