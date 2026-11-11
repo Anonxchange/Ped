@@ -23,3 +23,5 @@ timeoutMs = 20000
 
 [userenv.shared]
 VITE_REOWN_PROJECT_ID = "20426db6f0cd6a25be253b01839258d8"
+VITE_SUPABASE_URL = "https://hvpeycnedmzrjshmvgri.supabase.co"
+VITE_SUPABASE_PUBLISHABLE_KEY = "sb_publishable_y9ufU-eoHbwOllTgcl_lgw_vDStDueP"
